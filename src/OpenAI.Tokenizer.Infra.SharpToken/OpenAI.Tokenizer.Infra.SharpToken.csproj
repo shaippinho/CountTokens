@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\cl100k_base.tiktoken" />
+    <None Remove="Data\p50k_base.tiktoken" />
+    <None Remove="Data\r50k_base.tiktoken" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Data\cl100k_base.tiktoken" />
+    <EmbeddedResource Include="Data\p50k_base.tiktoken" />
+    <EmbeddedResource Include="Data\r50k_base.tiktoken" />
+  </ItemGroup>
+
+</Project>

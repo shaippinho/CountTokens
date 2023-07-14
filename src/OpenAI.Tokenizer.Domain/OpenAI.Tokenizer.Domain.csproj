@@ -10,4 +10,8 @@
     <PackageReference Include="MediatR" Version="12.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OpenAI.Tokenizer.Infra.SharpToken\OpenAI.Tokenizer.Infra.SharpToken.csproj" />
+  </ItemGroup>
+
 </Project>
