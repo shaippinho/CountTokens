@@ -1,12 +1,4 @@
-﻿using Microsoft.VisualBasic;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-
-namespace OpenAI.Tokenizer.Infra.SharpToken.ShapToken
+﻿namespace OpenAI.Tokenizer.Infra.SharpToken.ShapToken
 {
     public readonly struct ModelParams
     {
